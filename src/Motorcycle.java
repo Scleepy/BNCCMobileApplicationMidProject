@@ -21,7 +21,7 @@ public class Motorcycle extends Vehicle {
             }
             
         }
-        // System.out.println(getName() + " is standing!");
+        
     }
 
     public int getHelmetCount(){
