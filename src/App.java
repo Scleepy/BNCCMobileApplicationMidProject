@@ -225,7 +225,7 @@ public class App {
             motorList.add(newRide);
         }
 
-        System.out.println("ENTER to return");
+        System.out.print("ENTER to return");
         scanner.nextLine();
 
         showMenu(carList, motorList);
@@ -605,10 +605,10 @@ public class App {
     }
 
     public static void revEngine(){
-        String[] engine = {"1..", "2...", "3..."};
+        String[] engine = {"1...", "2...", "3..."};
 
         for(int i = 0; i < engine.length; i++){
-            for(int j = 0; j < 3; j++){
+            for(int j = 0; j < 4; j++){
 
                 try{
                     Thread.sleep(100);
